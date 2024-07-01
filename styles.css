@@ -3,3 +3,79 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: sans;
+    background-image: url(./images/bg.jpg)
+}
+
+main {
+    max-width: 700px;
+    width: 500px;
+    min-width: 300px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 60%);
+    margin: 30px auto;
+    border-radius: 5%;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+form {
+    padding-top: 20px;
+}
+
+fieldset {
+    margin: 10px;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+input {
+    display: block;
+    font-size: 18px;
+}
+
+select {
+    font-size: 18px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    display: inline
+}
+
+textarea {
+    margin: 10px;
+    width: 80%;
+    height: 4em;
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 20%;
+    background-color: hsl(0, 0%, 75%);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 15%);
+    color: hsl(0, 0%, 85%);
+    cursor: pointer;
+}
